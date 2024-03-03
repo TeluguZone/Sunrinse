@@ -188,9 +188,7 @@ class WZMLStyle:
     SEEDERS =           '\nâ”  <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders} | '
     LEECHERS =                                           '<b>ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
     
-    <a href='{https://t.me/QTVS_BOT_X_CLOUD}'>ǫᴛᴍᴠᴇ-x</a>"
-
-    ####--------SEEDING----------
+####--------SEEDING----------
     SEED_SIZE =      '\nâ”  <b>sɪᴢᴇ: </b>{Size}'
     SEED_SPEED =     '\nâ”  <b>sᴘᴇᴇғᴅ: </b> {Speed} | '
     UPLOADED =                                     '<b>ᴜᴘʟᴏᴀᴅ: </b> {Upload}'
