@@ -59,48 +59,48 @@ class WZMLStyle:
 â”– <b>ᴜ :</b> {disk_u} | <b>ғ :</b> {disk_f} | <b>ᴛ :</b> {disk_t}
     
     '''
-    SYS_STATS = '''âŒ¬ <b><i>ᴏs sʏsᴛᴇᴍ :</i></b>
-â”  <b>ᴏs ᴜᴘᴛɪᴍᴇ :</b> {os_uptime}
-â”  <b>ᴏs ᴠᴇʀsɪᴏɴ :</b> {os_version}
-â”– <b>ᴏs ᴀʀᴄʜ :</b> {os_arch}
+    SYS_STATS = '''➣ <b><i>ᴏs sʏsᴛᴇᴍ :</i></b>
+➣  <b>ᴏs ᴜᴘᴛɪᴍᴇ :</b> {os_uptime}
+➣  <b>ᴏs ᴠᴇʀsɪᴏɴ :</b> {os_version}
+➣ <b>ᴏs ᴀʀᴄʜ :</b> {os_arch}
 
-âŒ¬ <b><i>ɴᴇᴛᴡᴏʀᴋ sᴛᴀᴛs :</i></b>
-â”  <b>ᴜᴏʟᴏᴀᴅ ᴅᴀᴛᴀ:</b> {up_data}
-â”  <b>ᴅᴏᴡʙʟᴏᴀᴅ ᴅᴇᴛᴀ:</b> {dl_data}
-â”  <b>ᴘᴋʏs sᴇɴᴛ:</b> {pkt_sent}k
-â”  <b>ᴘᴋʏs ʀᴇᴄᴇɪᴠᴇᴅ:</b> {pkt_recv}k
-â”– <b>ᴛᴏᴛᴀʟ ɪ/𝟶 ᴅᴀᴛᴀ:</b> {tl_data}
+➣ <b><i>ɴᴇᴛᴡᴏʀᴋ sᴛᴀᴛs :</i></b>
+➣ <b>ᴜᴏʟᴏᴀᴅ ᴅᴀᴛᴀ:</b> {up_data}
+➣ <b>ᴅᴏᴡʙʟᴏᴀᴅ ᴅᴇᴛᴀ:</b> {dl_data}
+➣ <b>ᴘᴋʏs sᴇɴᴛ:</b> {pkt_sent}k
+➣ <b>ᴘᴋʏs ʀᴇᴄᴇɪᴠᴇᴅ:</b> {pkt_recv}k
+ ➣ <b>ᴛᴏᴛᴀʟ ɪ/𝟶 ᴅᴀᴛᴀ:</b> {tl_data}
 
-â”Ž <b>ᴄᴘᴜ :</b>
-â”ƒ {cpu_bar} {cpu}%
-â”  <b>ᴄᴘᴜ ғʀᴇǫᴜᴇɴᴄʏ :</b> {cpu_freq}
-â”  <b>sʏsᴛᴇᴍ ᴀᴠɢ ʟᴏᴀᴅ :</b> {sys_load}
-â”  <b>ᴘ-ᴄᴏʀᴇ(s) :</b> {ᴘ_ᴄᴏʀᴇ} | <b>ᴠ-ᴄᴏʀᴇ(s) :</b> {v_core}
-â”  <b>ᴛᴏᴛᴀʟ ᴄᴏʀᴇ(s) :</b> {total_core}
-â”– <b>ᴜsᴀʙʟᴇ ᴄᴘᴜ(s) :</b> {cpu_use}
+➣ <b>ᴄᴘᴜ :</b>
+➣ {cpu_bar} {cpu}%
+➣  <b>ᴄᴘᴜ ғʀᴇǫᴜᴇɴᴄʏ :</b> {cpu_freq}
+➣ <b>sʏsᴛᴇᴍ ᴀᴠɢ ʟᴏᴀᴅ :</b> {sys_load}
+➣  <b>ᴘ-ᴄᴏʀᴇ(s) :</b> {ᴘ_ᴄᴏʀᴇ} | <b>ᴠ-ᴄᴏʀᴇ(s) :</b> {v_core}
+ ➣ <b>ᴛᴏᴛᴀʟ ᴄᴏʀᴇ(s) :</b> {total_core}
+➣ <b>ᴜsᴀʙʟᴇ ᴄᴘᴜ(s) :</b> {cpu_use}
     '''
     REPO_STATS = '''âŒ¬ <b>ʀᴇᴘᴏ sᴛᴀᴛɪsᴛɪᴄs :</b>
-â”  <b>ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ :</b> {last_commit}
-â”  <b>ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ :</b> {bot_version}
-â”  <b>ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ :</b> {lat_version}
-â”– <b>ʟᴀsᴛ ᴄʜᴀɴɢᴇʟᴏɢ :</b> {commit_details}
-
-âŒ¬ <b>ʀᴇᴍᴀʀᴋs :</b> <code>{remarks}</code>
+➣ <b>ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ :</b> {last_commit}
+➣ <b>ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ :</b> {bot_version}
+➣ <b>ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ :</b> {lat_version}
+➣ <b>ʟᴀsᴛ ᴄʜᴀɴɢᴇʟᴏɢ :</b> {commit_details}
+ 
+ ➣ <b>ʀᴇᴍᴀʀᴋs :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''âŒ¬ <b>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</b>
-â”  <b>ᴅɪʀᴇᴄᴛ ʟɪᴍɪᴛ :</b> {DL} GB
-â”  <b>ᴛᴏʀʀᴇɴᴛ ʟɪᴍɪᴛ :</b> {TL} GB
-â”  <b>ɢᴅʀɪᴠᴇ ʟɪᴍɪᴛ :</b> {GL} GB
-â”  <b>ʏᴛ-ᴅʟᴘ ʟɪᴍɪᴛ :</b> {YL} GB
-â”  <b>ᴘʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ :</b> {PL}
-â”  <b>ᴍᴇɢᴀ ʟɪᴍɪᴛ :</b> {ML} GB
-â”  <b>ᴄʟᴏɴᴇ ʟɪᴍɪᴛ :</b> {CL} GB
-â”– <b>ʟᴇᴇᴄʜ ʟɪᴍɪᴛ :</b> {LL} GB
+    BOT_LIMITS = '''<b>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</b>
+➣ <b>ᴅɪʀᴇᴄᴛ ʟɪᴍɪᴛ :</b> {DL} GB
+➣ <b>ᴛᴏʀʀᴇɴᴛ ʟɪᴍɪᴛ :</b> {TL} GB
+➣ <b>ɢᴅʀɪᴠᴇ ʟɪᴍɪᴛ :</b> {GL} GB
+➣ <b>ʏᴛ-ᴅʟᴘ ʟɪᴍɪᴛ :</b> {YL} GB
+➣ <b>ᴘʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ :</b> {PL}
+➣ <b>ᴍᴇɢᴀ ʟɪᴍɪᴛ :</b> {ML} GB
+➣ <b>ᴄʟᴏɴᴇ ʟɪᴍɪᴛ :</b> {CL} GB
+➣ <b>ʟᴇᴇᴄʜ ʟɪᴍɪᴛ :</b> {LL} GB
 
-â”Ž <b>ᴛᴏᴋᴇɴ ᴠᴀʟɪᴅɪᴛʏ :</b> {TV}
-â”  <b>User ᴛɪᴍᴇ ʟɪᴍɪᴛ :</b> {UTI} / task
-â”  <b>User ᴘᴀʀᴀʟʟᴇʟs ᴛᴀsᴋs :</b> {UT}
-â”– <b>Bot ᴘᴀʀᴀʟʟᴇʟ ᴛᴀsᴋs :</b> {BT}
+➣ <b>ᴛᴏᴋᴇɴ ᴠᴀʟɪᴅɪᴛʏ :</b> {TV}
+➣ <b>User ᴛɪᴍᴇ ʟɪᴍɪᴛ :</b> {UTI} / task
+➣ <b>User ᴘᴀʀᴀʟʟᴇʟs ᴛᴀsᴋs :</b> {UT}
+➣ <b>Bot ᴘᴀʀᴀʟʟᴇʟ ᴛᴀsᴋs :</b> {BT}
     '''
     # ---------------------
 
@@ -110,11 +110,11 @@ class WZMLStyle:
 
     # async def restart_notification(): ---> __main__.py
     RESTART_SUCCESS = '''âŒ¬ <b><i>ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅</i></b>
-â”  <b>ᴅᴀᴛᴇ:</b> {date}
-â”  <b>ᴛɪᴍᴇ:</b> {time}
-â”  <b>ᴛɪᴍᴇᴢᴏɴᴇ:</b> {timz}
-â”– <b>Version:</b> {version}'''
-    RESTARTED = '''âŒ¬ <b><i>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ🛠</i></b>'''
+➣ <b>ᴅᴀᴛᴇ:</b> {date}
+➣ <b>ᴛɪᴍᴇ:</b> {time}
+➣ <b>ᴛɪᴍᴇᴢᴏɴᴇ:</b> {timz}
+➣ <b>Version:</b> {version}'''
+    RESTARTED = '''<b><i>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ🛠</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
@@ -124,39 +124,39 @@ class WZMLStyle:
 
     # async def onDownloadStart(self): --> tasks_listener.py
     LINKS_START = """<b><i>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ</i></b>
-â”  <b>⚙️ᴍᴏᴅᴇ:</b> {Mode}
-â”– <b>ʙʏ:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """âž² <b>🌐sᴏᴜʀᴄᴇ:</b>
-â”– <b>ᴀᴅᴅᴇᴅ ᴏɴ!= :</b> {On}
+➣ <b>⚙️ᴍᴏᴅᴇ:</b> {Mode}
+➣ <b>ʙʏ:</b> {Tag}\n\n"""
+    LINKS_SOURCE = """ <b>🌐sᴏᴜʀᴄᴇ:</b>
+➣ <b>ᴀᴅᴅᴇᴅ ᴏɴ!= :</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "âž² <b><u>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ :</u></b>\nâ”ƒ\nâ”– <b>ʟɪɴᴋ:</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
-    L_LOG_START =           "âž² <b><u>ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\nâ”ƒ\nâ”  <b>👨‍🎓ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\nâ”– <b>sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
+    PM_START =            ➣ <b><u>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ :</u></b>\nâ”ƒ\nâ”– <b>ʟɪɴᴋ:</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
+    L_LOG_START =           "➣ <b><u>ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\nâ”ƒ\nâ”  <b>👨‍🎓ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\nâ”– <b>sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>✅{Name}</i></b>\nâ”ƒ\n'
-    SIZE =                  'â”  <b>sɪᴢᴇ: </b>{Size}\n'
-    ELAPSE =                'â”  <b>ᴇʟᴀᴘᴇᴅ: </b>{Time}\n'
-    MODE =                  'â”  <b>ᴍᴏᴅᴇ: </b>{Mode}\n'
+    SIZE =                  ➣ <b>sɪᴢᴇ: </b>{Size}\n'
+    ELAPSE =                ➣  <b>ᴇʟᴀᴘᴇᴅ: </b>{Time}\n'
+    MODE =                  ➣ <b>ᴍᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         'â”  <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
-    L_CORRUPTED_FILES =     'â”  <b>ᴄᴏʀʀᴜᴘᴛᴇᴅ ғɪʟᴇs: </b>{Corrupt}\n'
-    L_CC =                  'â”– <b>ʙʏ: </b>{Tag}\n\n'
-    PM_BOT_MSG =            'âž² <b><i>ғɪʟᴇ(ss) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</i></b>'
-    L_BOT_MSG =             'âž² <b>ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</b>'
-    L_LL_MSG =              'âž² <b>ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</b>\n'
+    L_TOTAL_FILES =         ➣ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
+    L_CORRUPTED_FILES =     ➣ <b>ᴄᴏʀʀᴜᴘᴛᴇᴅ ғɪʟᴇs: </b>{Corrupt}\n'
+    L_CC =                  ➣ <b>ʙʏ: </b>{Tag}\n\n'
+    PM_BOT_MSG =            ➣ <b><i>ғɪʟᴇ(ss) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</i></b>'
+    L_BOT_MSG =             ➣ <b>ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</b>'
+    L_LL_MSG =              ➣ <b>ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</b>\n'
     
     # ----- MIRROR -------
-    M_TYPE =                'â”  <b>ᴛʏᴘᴇ: </b>{Mimetype}\n'
-    M_SUBFOLD =             'â”  <b>sᴜʙғᴏʟᴅᴇʀs: </b>{Folder}\n'
-    TOTAL_FILES =           'â”  <b>: ғɪʟᴇs</b>{Files}\n'
-    RCPATH =                'â”  <b>ᴘᴀᴛʜ: </b><code>{RCpath}</code>\n'
-    M_CC =                  'â”– <b>ʙʏ: </b>{Tag}\n\n'
-    M_BOT_MSG =             'âž² <b><i>ʟɪɴᴋ(s) have been sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
+    M_TYPE =                ➣  <b>ᴛʏᴘᴇ: </b>{Mimetype}\n'
+    M_SUBFOLD =             ➣  <b>sᴜʙғᴏʟᴅᴇʀs: </b>{Folder}\n'
+    TOTAL_FILES =           ➣ <b>: ғɪʟᴇs</b>{Files}\n'
+    RCPATH =                ➣ <b>ᴘᴀᴛʜ: </b><code>{RCpath}</code>\n'
+    M_CC =                  ➣ <b>ʙʏ: </b>{Tag}\n\n'
+    M_BOT_MSG =             ➣ <b><i>ʟɪɴᴋ(s) have been sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      'â˜ï¸ ᴄʟᴏᴜᴅ ʟɪɴᴋ'
     SAVE_MSG =        'ðŸ“¨ sᴀᴠᴇ ᴍᴀssᴀɢᴇ'
@@ -174,7 +174,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b><i>👨‍🎓{Name}</i></b>'
+    STATUS_NAME =       '<b><i>👨‍🎓ɴᴀᴍᴇ {Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\nâ”ƒ {Bar}'
@@ -183,44 +183,44 @@ class WZMLStyle:
     ETA =                                                ' | <b>⚙️ᴇᴛᴀ:</b> {Eta}'
     SPEED =             '\nâ”  <b>⚡sᴘᴇᴇᴅ:</b> {Speed}'
     ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\nâ”  <b>⏳ɴɢɪɴᴇ:</b> {Engine}'
-    STA_MODE =          '\nâ”  <b>⛓️ᴍᴏᴅᴇ:</b> {Mode}'
-    SEEDERS =           '\nâ”  <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders} | '
+    ENGINE =            '\n <b>⏳ɴɢɪɴᴇ:</b> {Engine}'
+    STA_MODE =          '\n <b>⛓️ᴍᴏᴅᴇ:</b> {Mode}'
+    SEEDERS =           '\n  <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders} | '
     LEECHERS =                                           '<b>ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
     
 ####--------SEEDING----------
     SEED_SIZE =      '\nâ”  <b>sɪᴢᴇ: </b>{Size}'
     SEED_SPEED =     '\nâ”  <b>sᴘᴇᴇғᴅ: </b> {Speed} | '
     UPLOADED =                                     '<b>ᴜᴘʟᴏᴀᴅ: </b> {Upload}'
-    RATIO =          '\nâ”  <b>ʀᴀᴅɪᴏ: </b> {Ratio} | '
+    RATIO =          '\n  <b>ʀᴀᴅɪᴏ: </b> {Ratio} | '
     TIME =                                         '<b>ᴛɪᴍᴇ: </b> {Time}'
-    SEED_ENGINE =    '\nâ”  <b>ᴇɴɢɪɴᴇe:</b> {Engine}'
+    SEED_ENGINE =    '\n  <b>ᴇɴɢɪɴᴇe:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
     STATUS_SIZE =    '\nâ”  <b>sɪᴢᴇ: </b>{Size}'
     NON_ENGINE =     '\nâ”  <b>ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\nâ”  <b>ᴜsᴇʀ"":</b> <code>{User}</code> | '
+    USER =              '\n  <b>ᴜsᴇʀ"":</b> <code>{User}</code> | '
     ID =                                                        '<b>ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =          '\nâ”  <b>sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =         '\nâ”– {Cancel}\n\n'
 
     ####------FOOTER--------
     FOOTER = 'âŒ¬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>\n'
-    TASKS =  'â”  <b>ᴛᴀsᴋs_:</b> {Tasks}\n'
-    BOT_TASKS = 'â”  <b>ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>ᴀᴠʟ:</b> {Free}\n'
-    Cpu = 'â”  <b>CPU:</b> {cpu}% | '
+    TASKS =    <b>ᴛᴀsᴋs_:</b> {Tasks}\n'
+    BOT_TASKS =  <b>ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>ᴀᴠʟ:</b> {Free}\n'
+    Cpu =   <b>CPU:</b> {cpu}% | '
     FREE =                      '<b>ғ:</b> {free} [{free_p}%]'
-    Ram = '\nâ”  <b>ʀᴀᴍ:</b> {ram}% | '
+    Ram = '\n  <b>ʀᴀᴍ:</b> {ram}% | '
     uptime =                     '<b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
-    DL = '\nâ”– <b>DL:</b> {DL}/s | '
+    DL = '\n <b>DL:</b> {DL}/s | '
     UL =                        '<b>UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = 'â«·'
     REFRESH = 'á´˜á´€É¢á´‡s\n{Page}'
-    NEXT = 'â«¸'
+    NEXT = ''
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
@@ -230,11 +230,11 @@ class WZMLStyle:
     # async def countNode(_, message): ----> gd_count.py
     COUNT_MSG = '<b>ᴄᴏᴜɴᴛɪɴɢ"":</b> <code>{LINK}</code>'
     COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\nâ”ƒ\n'
-    COUNT_SIZE = 'â”  <b>sɪᴢᴇ_: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = 'â”  <b>ᴛʏᴘᴇ: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  'â”  <b>sᴜʙғᴏʟᴅᴇʀs: </b>{COUNT_SUB}\n'
-    COUNT_FILE = 'â”  <b>ғɪʟᴇs_: </b>{COUNT_FILE}\n'
-    COUNT_CC =   'â”– <b>ʙʏ: </b>{COUNT_CC}\n'
+    COUNT_SIZE =  <b>sɪᴢᴇ_: </b>{COUNT_SIZE}\n'
+    COUNT_TYPE =  <b>ᴛʏᴘᴇ: </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  <b>sᴜʙғᴏʟᴅᴇʀs: </b>{COUNT_SUB}\n'
+    COUNT_FILE = <b>ғɪʟᴇs_: </b>{COUNT_FILE}\n'
+    COUNT_CC =    <b>ʙʏ: </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
@@ -246,54 +246,54 @@ class WZMLStyle:
     # async def mirror_status(_, message): ----> status.py
     NO_ACTIVE_DL = '''<i>ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</i>
     
-âŒ¬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>
-â”  <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-â”– <b>ʀᴀᴍ:</b> {ram} | <b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}
+ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>
+ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
+ <b>ʀᴀᴍ:</b> {ram} | <b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''ãŠ‚ <b><u>ᴜsᴇʀ sɪᴛᴛɪɴɢs :</u></b>
+    USER_SETTING = ''' <b><u>ᴜsᴇʀ sɪᴛᴛɪɴɢs :</u></b>
         
-â”Ž<b> ɴᴀᴍᴇ :</b> {NAME} ( <code>{ID}</code> )
-â” <b> ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
-â” <b> ᴛᴇʟᴇɢʀᴀᴍ ᴅᴄ :</b> {DC}
-â”–<b> ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}
+<b> ɴᴀᴍᴇ :</b> {NAME} ( <code>{ID}</code> )
+ <b> ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
+ <b> ᴛᴇʟᴇɢʀᴀᴍ ᴅᴄ :</b> {DC}
+ <b> ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}
 
-âž² <u><b>ᴀᴠᴀɪᴀʙʟᴇ ᴀʀɢs:</b></u>
-â€¢ <b>-s</b> or <b>-set</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
+ <u><b>ᴀᴠᴀɪᴀʙʟᴇ ᴀʀɢs:</b></u>
+ <b>-s</b> or <b>-set</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
 
-    UNIVERSAL = '''ãŠ‚ <b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
+    UNIVERSAL = '''<b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
-â”Ž<b> ʏᴛ-ᴅʟᴘ ᴏᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
-â” <b> ᴅᴀɪʟʏ ᴛᴀsᴋs :</b> <code>{DT}</code> per day
-â” <b> Last ʙᴏᴛ ᴜsᴇᴅ :</b> <code>{LAST_USED}</code>
-â” <b> ᴜsᴇʀ Session :</b> <code>{USESS}</code>
-â” <b> ᴍᴇᴅɪᴀɪɴғᴏ ᴍᴏᴅᴇ :</b> <code>{MEDIAINFO}</code>
-â” <b> sᴀᴠᴇ ᴍᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
-â”–<b> ᴜsᴇʀ ʙᴏᴛ ᴘᴍ :</b> <code>{BOT_PM}</code>'''
+<b> ʏᴛ-ᴅʟᴘ ᴏᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
+<b> ᴅᴀɪʟʏ ᴛᴀsᴋs :</b> <code>{DT}</code> per day
+<b> Last ʙᴏᴛ ᴜsᴇᴅ :</b> <code>{LAST_USED}</code>
+<b> ᴜsᴇʀ Session :</b> <code>{USESS}</code>
+<b> ᴍᴇᴅɪᴀɪɴғᴏ ᴍᴏᴅᴇ :</b> <code>{MEDIAINFO}</code>
+<b> sᴀᴠᴇ ᴍᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
+<b> ᴜsᴇʀ ʙᴏᴛ ᴘᴍ :</b> <code>{BOT_PM}</code>'''
 
     MIRROR = '''ãŠ‚ <b><u>Mirror/ᴄʟᴏɴᴇ sɪᴛᴛɪɴɢs : {NAME}</u></b>
 
-â”Ž<b> ʀᴄʟᴏɴᴇ ᴄᴏɴғɪɢ :</b> <i>{RCLONE}</i>
-â” <b> ᴍɪʀʀᴏʀ ᴘʀᴇғɪx :</b> <code>{MPREFIX}</code>
-â” <b> ᴍɪʀʀᴏʀ sᴜғғɪx :</b> <code>{MSUFFIX}</code>
-â” <b> ᴍɪʀʀᴏʀ ʀᴇᴍɴᴀᴍᴇ :</b> <code>{MREMNAME}</code>
-â” <b> ᴅᴅʟ sᴇʀᴠᴇʀ(s) :</b> <i>{DDL_SERVER}</i>
-â” <b> ᴜsᴇʀ ᴛᴅ ᴍᴏᴅᴇ :</b> <i>{TMODE}</i>
-â” <b> ᴛᴏᴛᴀʟ ᴜsᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
-â”–<b> ᴅᴀɪʟʏ!= ᴍɪʀʀᴏʀ :</b> <code>{DM}</code> per day'''
+<b> ʀᴄʟᴏɴᴇ ᴄᴏɴғɪɢ :</b> <i>{RCLONE}</i>
+<b> ᴍɪʀʀᴏʀ ᴘʀᴇғɪx :</b> <code>{MPREFIX}</code>
+<b> ᴍɪʀʀᴏʀ sᴜғғɪx :</b> <code>{MSUFFIX}</code>
+<b> ᴍɪʀʀᴏʀ ʀᴇᴍɴᴀᴍᴇ :</b> <code>{MREMNAME}</code>
+<b> ᴅᴅʟ sᴇʀᴠᴇʀ(s) :</b> <i>{DDL_SERVER}</i>
+<b> ᴜsᴇʀ ᴛᴅ ᴍᴏᴅᴇ :</b> <i>{TMODE}</i>
+<b> ᴛᴏᴛᴀʟ ᴜsᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
+<b> ᴅᴀɪʟʏ!= ᴍɪʀʀᴏʀ :</b> <code>{DM}</code> per day'''
 
-    LEECH = '''ãŠ‚ <b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs ғᴏʀ {NAME}</u></b>
+    LEECH = ''' <b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs ғᴏʀ {NAME}</u></b>
 
-â”Ž<b> ᴅᴀɪʟʏ ʟᴇᴇᴄʜ : </b><code>{DL}</code> ᴘᴇʀ ᴅᴀʏ
-â” <b> ʟᴇᴇᴄʜ ᴛʏᴘᴇ :</b> <i>{LTYPE}</i>
-â” <b> ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ :</b> <i>{THUMB}</i>
-â” <b> ʟᴇᴇᴄʜ sᴘʟɪᴛ sɪᴢᴇ :</b> <code>{SPLIT_SIZE}</code>
-â” <b> ᴇǫᴜᴀʟ sᴘʟɪᴛs :</b> <i>{EQUAL_SPLIT}</i>
-â” <b> ᴍᴇᴅɪᴀ ɢʀᴏᴜᴘ :</b> <i>{MEDIA_GROUP}</i>
-â” <b> ʟᴇᴇᴄʜ ᴄᴀᴘᴛɪᴏɴ :</b> <code>{LCAPTION}</code>
-â” <b> ʟᴇᴇᴄʜ ᴘʀᴇғɪx :</b> <code>{LPREFIX}</code>
-â” <b> ʟᴇᴇᴄʜ sᴜғғɪx :</b> <code>{LSUFFIX}</code>
-â” <b> ʟᴇᴇᴄʜ ᴅᴜᴍᴘs :</b> <code>{LDUMP}</code>
-â”–<b> ʟᴇᴇᴄʜ ʀᴇᴍɴᴀᴍᴇ :</b> <code>{LREMNAME}</code>'''
+<b> ᴅᴀɪʟʏ ʟᴇᴇᴄʜ : </b><code>{DL}</code> ᴘᴇʀ ᴅᴀʏ
+<b> ʟᴇᴇᴄʜ ᴛʏᴘᴇ :</b> <i>{LTYPE}</i>
+ <b> ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ :</b> <i>{THUMB}</i>
+<b> ʟᴇᴇᴄʜ sᴘʟɪᴛ sɪᴢᴇ :</b> <code>{SPLIT_SIZE}</code>
+ <b> ᴇǫᴜᴀʟ sᴘʟɪᴛs :</b> <i>{EQUAL_SPLIT}</i>
+<b> ᴍᴇᴅɪᴀ ɢʀᴏᴜᴘ :</b> <i>{MEDIA_GROUP}</i>
+<b> ʟᴇᴇᴄʜ ᴄᴀᴘᴛɪᴏɴ :</b> <code>{LCAPTION}</code>
+<b> ʟᴇᴇᴄʜ ᴘʀᴇғɪx :</b> <code>{LPREFIX}</code>
+<b> ʟᴇᴇᴄʜ sᴜғғɪx :</b> <code>{LSUFFIX}</code>
+<b> ʟᴇᴇᴄʜ ᴅᴜᴍᴘs :</b> <code>{LDUMP}</code>
+<b> ʟᴇᴇᴄʜ ʀᴇᴍɴᴀᴍᴇ :</b> <code>{LREMNAME}</code>'''
