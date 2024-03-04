@@ -29,7 +29,7 @@ class WZMLStyle:
     LOGIN_USED = '<b>ʙᴏᴛ ʟᴏɢɪɴ ᴜsᴀɢᴇ :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
-    LOG_DISPLAY_BT = '📑 Log ᴅɪsᴘʟᴀʏ
+    LOG_DISPLAY_BT = '📑 Log ᴅɪsᴘʟᴀy'
     WEB_PASTE_BT = '📨 ᴡᴇʙ ᴘᴀsᴛᴇ (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
