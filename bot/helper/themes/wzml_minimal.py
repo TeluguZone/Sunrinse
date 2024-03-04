@@ -205,8 +205,7 @@ class WZMLStyle:
     ID =                                                        '<b>🆔ID:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>🦠Select:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
-    
-    <a href="https://www.w3schools.com">Visit W3Schools</a>
+    owner_of_qtmve
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>\n'
