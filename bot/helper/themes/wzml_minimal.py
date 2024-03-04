@@ -36,7 +36,7 @@ class WZMLStyle:
     USER_BT = 'ᴜsᴇʀs'
     MICS_BT = 'ᴍɪᴄs'
     O_S_BT = 'ᴏᴡɴᴇʀ & sᴜᴅᴏs'
-    CLOSE_BT = 'ᴄʜᴏsᴇ
+    CLOSE_BT = 'ᴄʟᴏs'
     HELP_HEADER = "㊂ <b><i>ʜᴇʟᴘ ɢᴜɪᴅᴇ ᴍᴇɴᴜ!</i></b>\n\n<b>NOTE: <i>ᴄʟɪᴄᴋ ᴏɴ ᴀɴʏ ᴄᴍᴅ ᴛᴏ sᴇᴇ ᴍᴏʀᴇ ᴍɪɴᴏʀ detalis.</i></b>"
 
     # async def stats(client, message):
