@@ -159,7 +159,7 @@ class WZMLStyle:
     M_BOT_MSG =             '➲ <b><i>ʟɪɴᴋ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ ᴄʟᴏᴜᴅ ʟɪɴ'
-    SAVE_MSG =        '📨 sᴀᴠᴇ ᴍᴀssᴀɢ'ᴇ
+    SAVE_MSG =        '📨 sᴀᴠᴇ ᴍᴀssᴀɢᴇ'
     RCLONE_LINK =     '♻️ ʀᴄʟᴏɴᴇ ʟɪɴ'
     DDL_LINK =        '📎 {Serv} Link'
     SOURCE_URL =      '🔐 sᴏᴜʀᴄᴇ ʟɪɴ'
