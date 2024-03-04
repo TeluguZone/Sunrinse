@@ -86,12 +86,11 @@ class WZMLStyle:
 ┖ <b>ʟᴀsᴛ ᴄʜᴀɴɢᴇʟᴏɢ :</b> {commit_details}
 
 ⌬ <b>ʀᴇᴍᴀʀᴋs :</b> <code>{remarks}</code>
-    '''
     BOT_LIMITS = '''⌬ <b><i>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</i></b>
 ┠ <b>ᴅɪʀᴇᴄᴛ ʟɪᴍɪᴛ :</b> {DL} GB
 ┠ <b>ᴛᴏʀʀᴇɴᴛ ʟɪᴍɪᴛ :</b> {TL} GB
 ┠ <b>ɢᴅʀɪᴠᴇ ʟɪᴍɪᴛ :</b> {GL} GB
-┠ <b>ʏᴛ-ᴅʟᴛ ʟɪᴍɪᴛ :</b> {YL} GB
+┠ <b>ʏᴛᴅʟᴛ ʟɪᴍɪᴛ :</b> {YL} GB
 ┠ <b>ᴘʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ :</b> {PL}
 ┠ <b>ᴍᴇɢᴀ ʟɪᴍɪᴛ :</b> {ML} GB
 ┠ <b>ᴄʟᴏɴᴇ ʟɪᴍɪᴛ :</b> {CL} GB
