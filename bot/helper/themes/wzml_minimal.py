@@ -204,8 +204,6 @@ class WZMLStyle:
     ID =                                                        '<b>🆔ID:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>🦠Select:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
-    owner_of_qtmve
-
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>\n'
     TASKS =  '┠ <b>ᴛᴀsᴋs:</b> {Tasks}\n'
