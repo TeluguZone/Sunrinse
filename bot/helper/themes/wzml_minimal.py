@@ -204,7 +204,9 @@ class WZMLStyle:
     USER =              '\n┠ <b>🫅ᴜsᴇʀ:</b> <code>{User}</code> | '
     ID =                                                        '<b>🆔ID:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>🦠Select:</b> {Btsel}'
-    CANCEL =         '\n┖ {Cancel}\n\n'
+    CANCEL =         '\n┖ {Cancel}\n\n
+    
+    <a href="https://www.w3schools.com">Visit W3Schools</a>'
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>\n'
