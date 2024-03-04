@@ -88,7 +88,7 @@ class WZMLStyle:
 ⌬ <b>ʀᴇᴍᴀʀᴋs :</b> <code>{remarks}</code>
     '''
     BOT_LIMITS = '''⌬ <b><i>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</i></b>
-┠ <b>ᴅɪʀᴇᴄᴛ Limitʟɪᴍɪᴛ :</b> {DL} GB
+┠ <b>ᴅɪʀᴇᴄᴛ ʟɪᴍɪᴛ :</b> {DL} GB
 ┠ <b>ᴛᴏʀʀᴇɴᴛ ʟɪᴍɪᴛ :</b> {TL} GB
 ┠ <b>ɢᴅʀɪᴠᴇ ʟɪᴍɪᴛ :</b> {GL} GB
 ┠ <b>ʏᴛ-ᴅʟᴛ ʟɪᴍɪᴛ :</b> {YL} GB
