@@ -13,7 +13,7 @@ class WZMLStyle:
     OWN_TOKEN_GENERATE = '''<b>ᴛᴇᴍᴘᴏʀᴀʀʏ ᴛᴏᴋᴇɴ ɪs ɴᴏᴛ ʏᴏᴜʀs!</b>\n\n<i>ᴋɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ.</i>'''
     USED_TOKEN = '''<b>ᴛᴇᴍᴘᴏʀᴀʀʏ ᴛᴏᴋᴇɴ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ!</b>\n\n<i>ᴋɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ᴀ ɴᴇᴡ ᴏɴᴇ.</i>'''
     LOGGED_PASSWORD = '''<b>ʙᴏᴛ ᴀʟʀᴇᴀᴅʏ ʟᴏɢɢᴇᴅ ɪɴ ᴠɪᴀ ᴘᴀssᴡᴏʀᴅ</b>\n\n<i>ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴛᴇᴍᴘ ᴛᴏᴋᴇɴs.</i>'''
-    ACTIVATE_BUTTON = 'ᴀᴄᴛɪᴠᴀᴛᴇ ᴛᴇᴍᴘᴏʀᴀʀʏ ᴛᴏᴋᴇɴ
+    ACTIVATE_BUTTON ='Activate Temporary Token'
     TOKEN_MSG = '''<b><u>ɢᴇɴᴇʀᴀᴛᴇᴅ ᴛᴇᴍᴘᴏʀᴀʀʏ ʟᴏɢɪɴ ᴛᴏᴋᴇɴ!</u></b>
 <b>ᴛᴇᴍᴘ ᴛᴏᴋᴇɴ:</b> <code>{token}</code>
 <b>ᴠᴀʟɪᴅɪᴛʏ:</b> {validity}'''
