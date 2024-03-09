@@ -137,9 +137,9 @@ class WZMLStyle:
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>ɴᴀᴍᴇ : {Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>sɪᴢᴇ: </b>{Size}\n'
-    ELAPSE =                '┠ <b>ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
-    MODE =                  '┠ <b>ᴍᴏᴅᴇ: </b>{Mode}\n'
+    SIZE =                  '┠ <b>💿sɪᴢᴇ: </b>{Size}\n'
+    ELAPSE =                '┠ <b>⏳ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
+    MODE =                  '┠ <b>⛓️ᴍᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
     L_TOTAL_FILES =         '┠ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
@@ -201,7 +201,7 @@ class WZMLStyle:
 
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n┠ <b>🫅ᴜsᴇʀ:</b> <code>{User}</code> | '
-    ID =                                                        '<b>🆔IDɪᴅ:</b> <code>{Id}</code>'
+    ID =                                                        '<b>🆔ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>⏺sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
@@ -246,13 +246,13 @@ class WZMLStyle:
     NO_ACTIVE_DL = '''<i>ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</i>
     
 ⌬ <b><i>📳ʙᴏᴛ sᴛᴀᴛs</i></b>
-┠ <b>🖥ᴄᴘᴜ:</b> {cpu}% | <b>💿ғ:</b> {free} [{free_p}%]
+┠ <b>🖥ᴄᴘᴜ:</b> {cpu}% | <b>💿Ғʀᴇᴇ:</b> {free} [{free_p}%]
 ┖ <b>🚧ʀᴀᴍ:</b> {ram} | <b>🎮ᴜᴘᴛɪᴍᴇ:</b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''㊂ <b><u>ᴜsᴇʀ sᴇᴛᴛɪɴɢs :</u></b>
+    ᴜsᴇʀ_sᴇᴛᴛɪɴɢ = '''㊂ <b><u>ᴜsᴇʀ sᴇᴛᴛɪɴɢs :</u></b>
         
 ┎<b> ɴᴀᴍᴇ :</b> {NAME} ( <code>🆔{ID}</code> )
 ┠<b> 🫅ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
@@ -262,7 +262,7 @@ class WZMLStyle:
 ➲ <u><b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴀʀɢs:</b></u>
 • <b>-s</b> or <b>-sᴇᴛ</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
 
-    UNIVERSAL = '''㊂ <b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
+    ᴜɴɪᴠᴇʀsᴀʟ = '''㊂ <b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
 ┎<b> ʏᴛ-ᴅʟᴘ ᴏᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
 ┠<b> ᴅᴀɪʟʏ ᴛᴀsᴋs :</b> <code>{DT}</code> ᴘᴇʀ ᴅᴀʏ
@@ -272,7 +272,7 @@ class WZMLStyle:
 ┠<b> sᴀᴠᴇ ᴍᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
 ┖<b> ᴜsᴇʀ ʙᴏᴛ ᴘᴍ :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''㊂ <b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
+    ᴍɪʀʀᴏʀ = '''㊂ <b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
 ┎<b> ʀᴄʟᴏɴᴇ ᴄᴏɴғɪɢ :</b> <i>{RCLONE}</i>
 ┠<b> ᴍɪʀʀᴏʀ ᴘʀᴇғɪx𝟸 :</b> <code>{MPREFIX}</code>
@@ -283,7 +283,7 @@ class WZMLStyle:
 ┠<b> ᴛᴏᴛᴀʟ ᴜsᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
 ┖<b> ᴅᴀɪʟʏ ᴍɪʀʀᴏʀ :</b> <code>{DM}</code> ᴘᴇʀ ᴅᴀʏ'''
 
-    LEECH = '''㊂ <b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs ғᴏʀ 🫅{NAME}</u></b>
+    ʟᴇᴇᴄʜ = '''㊂ <b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs ғᴏʀ 🫅{NAME}</u></b>
 
 ┎<b> ᴅᴀɪʟʏ ʟᴇᴇᴄʜ : </b><code>{DL}</code> ᴘᴇʀ ᴅᴀʏ
 ┠<b> ʟᴇᴇᴄʜ ᴛʏᴘᴇ :</b> <i>{LTYPE}</i>
