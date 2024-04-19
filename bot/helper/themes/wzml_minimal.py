@@ -2,7 +2,7 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'ᴍᴀsᴛᴇʀ'
+    ST_BN1_NAME = 'Master'
     ST_BN1_URL = 'https://owner_of_qtmve'
     ST_BN2_NAME = 'Updates'
     ST_BN2_URL = 'https://t.me/WZML_X'
