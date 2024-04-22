@@ -41,4 +41,4 @@ tgcrypto
 uvloop
 xattr
 yt-dlp==2023.10.07
-pyrofork 2.3.21.post3
+pyrofork==2.2.11
