@@ -125,15 +125,15 @@ class WZMLStyle:
     LINKS_START = """<b><i>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ</i></b>
 ┠ <b>ᴍᴏᴅᴇ:</b> {Mode}
 ┖ <b>ʙʏ:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """➲ <b>sᴏᴜʀᴄᴇ:</b>
+    LINKS_SOURCE = """<b>sᴏᴜʀᴄᴇ:</b>
 ┖ <b>ᴀᴅᴅᴇᴅ ᴏɴ:</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>🦋ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>🍂ʟɪɴᴋ:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>📝ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>🧬sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
+    PM_START =            "<b><u>🦋ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>🍂ʟɪɴᴋ:</b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "<b><u>📝ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>🧬sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b>✔️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n'
@@ -145,9 +145,9 @@ class WZMLStyle:
     L_TOTAL_FILES =         '┠ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
     L_CORRUPTED_FILES =     '┠ <b>ᴄᴏʀʀᴜᴘᴛᴇᴅ ғɪʟᴇs: </b>{Corrupt}\n'
     L_CC =                  '┖ <b>ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ: </b>{Tag}\n\n'
-    PM_BOT_MSG =            '<b><i>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</b></b>'
-    L_BOT_MSG =             '<b><i>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</b></b>'
-    L_LL_MSG =              '<b><i>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</b></b>\n'
+    PM_BOT_MSG =            '<b><u>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</b></b>'
+    L_BOT_MSG =             '<b><u>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</b></b>'
+    L_LL_MSG =              '<b><u>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</b></b>\n'
     
     # ----- MIRROR -------
     M_TYPE =                '┠ <b>ᴛʏᴘᴇ: </b>{Mimetype}\n'
@@ -254,13 +254,14 @@ class WZMLStyle:
     # USER Setting --> user_setting.py  
     USER_SETTING = '''<b><u>⚛ᴜsᴇʀ sᴇᴛᴛɪɴɢs⚛ :</u></b>
         
-┎<b> ✨ɴᴀᴍᴇ :</b> {NAME} ( <code>🆔{ID}</code> )
+┎<b> ✨ɴᴀᴍᴇ :</b> {NAME}
+┠<b> 👤ɪᴅ :</b> {ID}
 ┠<b> 🦋ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
 ┠<b> ❤️‍🔥ᴅᴀᴛᴀ ᴄᴇɴᴛᴇʀ :</b> {DC}
 ┖<b> 🎭ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}
 
-➲ <u><b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴀʀɢs:</b></u>
-• <b>-s</b> or <b>-sᴇᴛ</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
+<u><b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴀʀɢs:</b></u>
+<b>-s</b> or <b>-sᴇᴛ</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
   
     UNIVERSAL = '''🍂<b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
