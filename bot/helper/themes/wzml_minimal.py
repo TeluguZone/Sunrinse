@@ -214,7 +214,7 @@ class WZMLStyle:
     Ram = '\n┠ <b>♨ʀᴀᴍ:</b> {ram}% | '
     uptime =                     '\n┠ <b>🕸️ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
     DL = '\n┠ <b>🎖ᴅʟ:</b> {DL}/s | '
-    UL =                        '\n┖<b>🍁ᴜʟ:</b> {UL}/s'
+    UL =                        '\n┖<b>📡ᴜʟ:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '◀ʙᴀᴄᴋ'
