@@ -176,10 +176,10 @@ class WZMLStyle:
     STATUS_NAME =       '<b></b>🎬ɴᴀᴍᴇ :<code>{Name}</code>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n\n┃ {Bar}'
+    BAR =               '\n\n┎ {Bar}'
     PROCESSED =         '\n┠ <b>🛡️ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
     STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
-    ETA =               '\n┠ <b>ᴇᴛᴀ:</b> {Eta}'
+    ETA =               '\n┠ <b>🧿ᴇᴛᴀ:</b> {Eta}'
     SPEED =             '\n┠ <b>⏳sᴘᴇᴇᴅ:</b> {Speed}'
     ELAPSED =           '\n┠ <b>🕓ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
     ENGINE =            '\n┠ <b>🪩ᴇɴɢɪɴᴇ:</b> {Engine}'
@@ -209,12 +209,12 @@ class WZMLStyle:
     FOOTER = '┎<b><b>🦋ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
     TASKS =  '┠ <b>ᴛᴀsᴋs⚓:</b> {Tasks}\n'
     BOT_TASKS = '┠ <b>🌿ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>ᴄᴘᴜ💶:</b> {cpu}% | '
+    Cpu = '┠ <b>⚙️ᴄᴘᴜ:</b> {cpu}% '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>♨ʀᴀᴍ:</b> {ram}% | '
-    uptime =                     '<b>🦋ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
-    DL = '\n┖ <b>🎖ᴅʟ:</b> {DL}/s | '
-    UL =                        '<b>🍁ᴜʟ:</b> {UL}/s'
+    uptime =                     '\n┠ <b>🦋ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
+    DL = '\n┠ <b>🎖ᴅʟ:</b> {DL}/s | '
+    UL =                        '\n┖<b>🍁ᴜʟ:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '◀ʙᴀᴄᴋ'
