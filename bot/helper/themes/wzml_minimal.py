@@ -173,7 +173,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-        STATUS_NAME =       '<b></b>✔️ғɪʟᴇ ɴᴀᴍᴇ :<code>{Name}</code>\n\n<b>┎━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
+            STATUS_NAME =       '<b>✔️ғɪʟᴇ ɴᴀᴍᴇ :<code>{Name}</code>\n\n┎━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┠ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
@@ -203,7 +203,7 @@ class WZMLStyle:
     USER =              '\n┠ <b>⚙️ᴜsᴇʀ:</b> <code>{User}</code>'
     ID =                '\n┠<b>🫧ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =             '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
-    CANCEL =            '\n┖ {Cancel}\n<b>┖━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
+    CANCEL =            '\n┠ {Cancel}\n<b>┖━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>\n\n'
 
     ####------FOOTER--------
     FOOTER = '┎<b><b>♠️ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
