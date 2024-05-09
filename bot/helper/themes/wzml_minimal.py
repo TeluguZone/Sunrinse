@@ -2,10 +2,10 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Master'
-    ST_BN1_URL = 'https://owner_of_qtmve'
+    ST_BN1_NAME = 'Author'
+    ST_BN1_URL = 'https://SMD_Owner'
     ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN2_URL = 'https://t.me/SMD_BotZ'
     ST_MSG = '''<i>ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i>
 <b>ᴛʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ a ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
     ST_BOTPM = '''<i>ɴᴏᴡ, ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. sᴛᴀʀᴛ ᴜsɪɴɢ ...</i>'''
@@ -104,16 +104,16 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>ʀᴇsᴛᴀʀᴛɪɴɢ-->>>...</i>'
+    RESTARTING = '<i>♻ʀᴇsᴛᴀʀᴛɪɴɢ-->>>...</b>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!</i></b>
+    RESTART_SUCCESS = '''⌬ <b><i>🍁ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!</i></b>
 ┠ <b>ᴅᴀᴛᴇ:</b> {date}
 ┠ <b>ᴛɪᴍᴇ:</b> {time}
 ┠ <b>ᴛɪᴍᴇᴢᴏɴᴇ:</b> {timz}
 ┖ <b>ᴠᴇʀsɪᴏɴ:</b> {version}'''
-    RESTARTED = '''⌬ <b><i>Bot ʀᴇsᴛᴀʀᴛᴇᴅ!</i></b>'''
+    RESTARTED = '''⌬ <b><code>🍥ǫᴛᴠsʙᴏᴛᴢ ʀᴇsᴛᴀʀᴛᴇᴅ!</code></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
@@ -132,14 +132,14 @@ class WZMLStyle:
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
+    PM_START =            "➲ <b><u>🦋ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>🍂ʟɪɴᴋ:</b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "➲ <b><u>📝ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>🧬sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b>🎬ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n\n'
-    SIZE =                  '┠ <b>💿sɪᴢᴇ: </b>{Size}\n'
+    NAME =                  '<b>🎞️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n\n'
+    SIZE =                  '┠ <b>📄sɪᴢᴇ: </b>{Size}\n'
     ELAPSE =                '┠ <b>⏳ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
-    MODE =                  '┠ <b>⛓️ᴍᴏᴅᴇ: </b>{Mode}\n'
+    MODE =                  '┠ <b>🧿ᴍᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
     L_TOTAL_FILES =         '┠ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
@@ -177,49 +177,49 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>🚀ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
-    STATUS =            '\n┠ <b>🔄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
+    PROCESSED =         '\n┠ <b>🛡️ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
+    STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ᴇᴛᴀ:</b> {Eta}'
-    SPEED =             '\n┠ <b>⚡sᴘᴇᴇᴅ:</b> {Speed}'
+    SPEED =             '\n┠ <b>⏳sᴘᴇᴇᴅ:</b> {Speed}'
     ELAPSED =                                     ' | <b>🕓ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>⛓️ᴇɴɢɪɴᴇ:</b> {Engine}'
+    ENGINE =            '\n┠ <b>🪩ᴇɴɢɪɴᴇ:</b> {Engine}'
     STA_MODE =          '\n┠ <b>⚙️ᴍᴏᴅᴇ:</b> {Mode}'
     SEEDERS =           '\n┠ <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders} | '
     LEECHERS =                                           '<b>🐌ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>📶sɪᴢᴇ: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>⚡sᴘᴇᴇᴅ: </b> {Speed} | '
+    SEED_SIZE =      '\n┠ <b>🗃️sɪᴢᴇ: </b>{Size}'
+    SEED_SPEED =     '\n┠ <b>🧬sᴘᴇᴇᴅ: </b> {Speed} | '
     UPLOADED =                                     '<b>🫅ᴜᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
-    ʀᴀᴛɪᴏ =          '\n┠ <b>Ratio: </b> {Ratio} | '
+    ʀᴀᴛɪᴏ =          '\n┠ <b>⚓ʀᴀᴛɪᴏ: </b> {Ratio} | '
     ᴛɪᴍᴇ =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>ᴇɴɢɪɴᴇ:</b> {Engine}'
+    SEED_ENGINE =    '\n┠ <b>💎ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>sɪᴢᴇ: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>ᴇɴɢɪɴᴇ:</b> {Engine}'
+    STATUS_SIZE =    '\n┠ <b>🌟sɪᴢᴇ: </b>{Size}'
+    NON_ENGINE =     '\n┠ <b>🫧ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>🫅ᴜsᴇʀ:</b> <code>{User}</code> | '
-    ID =                                                        '<b>🆔ɪᴅ:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>⏺sᴇʟᴇᴄᴛ:</b> {Btsel}'
+    USER =              '\n┠ <b>⚙️ᴜsᴇʀ:</b> <code>{User}</code> | '
+    ID =                                                        '<b>📚ɪᴅ:</b> <code>{Id}</code>'
+    BTSEL =          '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>\n'
-    TASKS =  '┠ <b>ᴛᴀsᴋs:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>ᴄᴘᴜ:</b> {cpu}% | '
+    FOOTER = '⌬ <b><b>🦋ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
+    TASKS =  '┠ <b>ᴛᴀsᴋs⚓:</b> {Tasks}\n'
+    BOT_TASKS = '┠ <b>🌿ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
+    Cpu = '┠ <b>ᴄᴘᴜ💶:</b> {cpu}% | '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>ʀᴀᴍ:</b> {ram}% | '
+    Ram = '\n┠ <b>♨ʀᴀᴍ:</b> {ram}% | '
     uptime =                     '<b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
-    DL = '\n┖ <b>ᴅʟ:</b> {DL}/s | '
+    DL = '\n┖ <b>🎖ᴅʟ:</b> {DL}/s | '
     UL =                        '<b>ᴜʟ:</b> {UL}/s'
 
     ###--------BUTTONS-------
-    PREVIOUS = '⫷'
-    REFRESH = 'ᴘᴀɢᴇs\n{Page}'
-    NEXT = '⫸'
+    PREVIOUS = '◀ʙᴀᴄᴋ'
+    REFRESH = '✴ᴘᴀɢᴇs✴\n{Page}'
+    NEXT = 'ɴᴇxᴛ▶'
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
@@ -243,9 +243,9 @@ class WZMLStyle:
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</i>
+    NO_ACTIVE_DL = '''<i>😯ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</i>
     
-⌬ <b><i>📳ʙᴏᴛ sᴛᴀᴛs</i></b>
+⌬ <b><i>📳ʙᴏᴛ sᴛᴀᴛs</code></b>
 ┠ <b>🖥ᴄᴘᴜ:</b> {cpu}% | <b>💿Ғʀᴇᴇ:</b> {free} [{free_p}%]
 ┖ <b>🚧ʀᴀᴍ:</b> {ram} | <b>🎮ᴜᴘᴛɪᴍᴇ:</b> {uptime}
     '''
@@ -254,10 +254,10 @@ class WZMLStyle:
     # USER Setting --> user_setting.py  
     USER_SETTING = '''㊂ <b><u>ᴜsᴇʀ sᴇᴛᴛɪɴɢs :</u></b>
         
-┎<b> ɴᴀᴍᴇ :</b> {NAME} ( <code>🆔{ID}</code> )
-┠<b> 🫅ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
-┠<b> ☣️Teleg𝟸ram ᴅᴄ :</b> {DC}
-┖<b> 🆘ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}
+┎<b> ✨ɴᴀᴍᴇ :</b> {NAME} ( <code>🆔{ID}</code> )
+┠<b> 🦋ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
+┠<b> ❤️‍🔥ᴅᴀᴛᴀ ᴄᴇɴᴛᴇʀ :</b> {DC}
+┖<b> 🎭ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}
 
 ➲ <u><b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴀʀɢs:</b></u>
 • <b>-s</b> or <b>-sᴇᴛ</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
