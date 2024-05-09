@@ -212,9 +212,9 @@ class WZMLStyle:
     Cpu = '┠ <b>⚙️ᴄᴘᴜ:</b> {cpu}% '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>♨ʀᴀᴍ:</b> {ram}% | '
-    uptime =                     '\n┠ <b>🕸️ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
-    DL = '\n┠ <b>🎖ᴅʟ:</b> {DL}/s | '
-    UL =                        '\n┖<b>📡ᴜʟ:</b> {UL}/s'
+    uptime =                     '<b>🕸️ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
+    DL = '\n┖ <b>🎖ᴅʟ:</b> {DL}/s | '
+    UL =                        '<b>📡ᴜʟ:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '◀ʙᴀᴄᴋ'
