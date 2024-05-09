@@ -173,7 +173,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b></b>🎬ɴᴀᴍᴇ :<code>{Name}</code>'
+    STATUS_NAME =       '<b></b>✔️ɴᴀᴍᴇ :<code>{Name}</code>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n\n┎ {Bar}'
@@ -243,11 +243,11 @@ class WZMLStyle:
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>😯ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</i>
+    NO_ACTIVE_DL = '''<b>💫ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</b>
     
-┎ <b><i>📳ʙᴏᴛ sᴛᴀᴛs</code></b>
-┠ <b>🖥ᴄᴘᴜ:</b> {cpu}% | <b>💿Ғʀᴇᴇ:</b> {free} [{free_p}%]
-┖ <b>🚧ʀᴀᴍ:</b> {ram} | <b>🎮ᴜᴘᴛɪᴍᴇ:</b> {uptime}
+┎ <b><i>⚙️ʙᴏᴛ sᴛᴀᴛs</code></b>
+┠ <b>🌐ᴄᴘᴜ:</b> {cpu}% | <b>🍁ғʀᴇᴇ:</b> {free} [{free_p}%]
+┖ <b>🔰ʀᴀᴍ:</b> {ram} | <b>❄ᴜᴘᴛɪᴍᴇ:</b> {uptime}
     '''
     # ---------------------
 
