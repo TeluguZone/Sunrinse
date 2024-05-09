@@ -173,13 +173,13 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b>༺━━━━ « <a href="https://t.me/SMD_Owner">𝐐𝐭𝐯𝐬 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>\n\n🌐 Name:</b><code>{Name}</code>'
+        STATUS_NAME =       '<b></b>✔️ғɪʟᴇ ɴᴀᴍᴇ :<code>{Name}</code>\n\n<b>┎━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n┎ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
-    PROCESSED =         '\n┠ <b>🛡️ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
+    BAR =               '\n┠ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
+    PROCESSED =         '\n┠ <b>🛡ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
     STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
-    ETA =               '\n┠ <b>📍ᴇᴛᴀ:</b> {Eta}'
+    ETA =               '\n┠ <b>🧿ᴇᴛᴀ:</b> {Eta}'
     SPEED =             '\n┠ <b>⏳sᴘᴇᴇᴅ:</b> {Speed}'
     ELAPSED =           '\n┠ <b>🕓ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
     ENGINE =            '\n┠ <b>🪩ᴇɴɢɪɴᴇ:</b> {Engine}'
@@ -188,11 +188,11 @@ class WZMLStyle:
     LEECHERS =          '\n┠ <b>☘️ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>🗃️sɪᴢᴇ: </b>{Size}'
+    SEED_SIZE =      '\n┠ <b>🗃sɪᴢᴇ: </b>{Size}'
     SEED_SPEED =     '\n┠ <b>🧬sᴘᴇᴇᴅ: </b> {Speed}'
     UPLOADED =       '\n┠ <b>🍁ᴜᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
-    ʀᴀᴛɪᴏ =           '\n┠ <b>⚓ʀᴀᴛɪᴏ: </b> {Ratio}'
-    ᴛɪᴍᴇ =            '\n┠ <b>❄ᴛɪᴍᴇ: </b> {Time}'
+    ʀᴀᴛɪᴏ =           '\n┠ <b>⚓️ʀᴀᴛɪᴏ: </b> {Ratio}'
+    ᴛɪᴍᴇ =            '\n┠ <b>❄️ᴛɪᴍᴇ: </b> {Time}'
     SEED_ENGINE =    '\n┠ <b>💎ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
@@ -203,7 +203,7 @@ class WZMLStyle:
     USER =              '\n┠ <b>⚙️ᴜsᴇʀ:</b> <code>{User}</code>'
     ID =                '\n┠<b>🫧ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =             '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
-    CANCEL =            '\n┖ {Cancel}\n\n'
+    CANCEL =            '\n┖ {Cancel}\n<b>┖━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
 
     ####------FOOTER--------
     FOOTER = '┎<b><b>♠️ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
