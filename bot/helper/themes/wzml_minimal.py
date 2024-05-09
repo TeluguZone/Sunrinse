@@ -37,10 +37,10 @@ class WZMLStyle:
     MICS_BT = 'ᴍɪᴄs'
     O_S_BT = 'ᴏᴡɴᴇʀ & sᴜᴅᴏs'
     CLOSE_BT = 'ᴄʟᴏs'
-    HELP_HEADER = "㊂ <b><i>ʜᴇʟᴘ ɢᴜɪᴅᴇ ᴍᴇɴᴜ!</i></b>\n\n<b>NOTE: <i>ᴄʟɪᴄᴋ ᴏɴ ᴀɴʏ ᴄᴍᴅ ᴛᴏ sᴇᴇ ᴍᴏʀᴇ ᴍɪɴᴏʀ detalis.</i></b>"
+    HELP_HEADER = "🍂 <b><i>ʜᴇʟᴘ ɢᴜɪᴅᴇ ᴍᴇɴᴜ!</i></b>\n\n<b>NOTE: <i>ᴄʟɪᴄᴋ ᴏɴ ᴀɴʏ ᴄᴍᴅ ᴛᴏ sᴇᴇ ᴍᴏʀᴇ ᴍɪɴᴏʀ detalis.</i></b>"
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
+    BOT_STATS = '''<b><i>ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
 ┖ <b>ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :</b> {bot_uptime}
 
 ┎ <b><i>ʀᴀᴍ ( MEMORY ) :</i></b>
@@ -58,7 +58,7 @@ class WZMLStyle:
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
     '''
-    SYS_STATS = '''⌬ <b><i>ᴏs sʏsᴛᴇᴍ :</i></b>
+    SYS_STATS = '''<b><i>ᴏs sʏsᴛᴇᴍ :</i></b>
 ┠ <b>ᴏs ᴜᴘᴛɪᴍᴇ :</b> {os_uptime}
 ┠ <b>ᴏs ᴠᴇʀsɪᴏɴ :</b> {os_version}
 ┖ <b>ᴏs ᴀʀᴄʜ :</b> {os_arch}
@@ -78,7 +78,7 @@ class WZMLStyle:
 ┠ <b>ᴛᴏᴛᴀʟ ᴄᴏʀᴇ(s) :</b> {total_core}
 ┖ <b>ᴜsᴀʙʟᴇ ᴄᴘᴜ(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''⌬ <b><i>ʀᴇᴘᴏ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
+    REPO_STATS = '''┎ <b><i>ʀᴇᴘᴏ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
 ┠ <b>ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ :</b> {last_commit}
 ┠ <b>ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ :</b> {bot_version}
 ┠ <b>ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ :</b> {lat_version}
@@ -86,7 +86,7 @@ class WZMLStyle:
 
 ⌬ <b>ʀᴇᴍᴀʀᴋs :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''⌬ <b><i>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</i></b>
+    BOT_LIMITS = '''┎ <b><i>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</i></b>
 ┠ <b>ᴅɪʀᴇᴄᴛ ʟɪᴍɪᴛ :</b> {DL} GB
 ┠ <b>ᴛᴏʀʀᴇɴᴛ ʟɪᴍɪᴛ :</b> {TL} GB
 ┠ <b>ɢᴅʀɪᴠᴇ ʟɪᴍɪᴛ :</b> {GL} GB
@@ -104,20 +104,20 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>♻ʀᴇsᴛᴀʀᴛɪɴɢ-->>>...</b>'
+    RESTARTING = '<b>♻ʀᴇsᴛᴀʀᴛɪɴɢ ᴏᴜʀ ʙᴏᴛ...!</b>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>🍁ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!</i></b>
+    RESTART_SUCCESS = '''<b><b>🍁ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...!</b></b>
 ┠ <b>ᴅᴀᴛᴇ:</b> {date}
 ┠ <b>ᴛɪᴍᴇ:</b> {time}
 ┠ <b>ᴛɪᴍᴇᴢᴏɴᴇ:</b> {timz}
 ┖ <b>ᴠᴇʀsɪᴏɴ:</b> {version}'''
-    RESTARTED = '''⌬ <b><code>🍥ǫᴛᴠsʙᴏᴛᴢ ʀᴇsᴛᴀʀᴛᴇᴅ!</code></b>'''
+    RESTARTED = '''<b><code>🍥ǫᴛᴠsʙᴏᴛᴢ ʀᴇsᴛᴀʀᴛᴇᴅ...!</code></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<i>sᴛᴀʀᴛɪɴɢ Piᴘʏng..</i>'
+    PING = '<i>sᴛᴀʀᴛɪɴɢ ᴘɪɴɢ..</i>'
     PING_VALUE = '<b>ᴘᴏɴɢ</b>\n<code>{value} ms..</code>'
     # ---------------------
 
@@ -179,20 +179,20 @@ class WZMLStyle:
     BAR =               '\n\n┃ {Bar}'
     PROCESSED =         '\n┠ <b>🛡️ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
     STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ᴇᴛᴀ:</b> {Eta}'
+    ETA =               '\n┠ <b>ᴇᴛᴀ:</b> {Eta}'
     SPEED =             '\n┠ <b>⏳sᴘᴇᴇᴅ:</b> {Speed}'
-    ELAPSED =                                     ' | <b>🕓ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
+    ELAPSED =           '\n┠ <b>🕓ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
     ENGINE =            '\n┠ <b>🪩ᴇɴɢɪɴᴇ:</b> {Engine}'
     STA_MODE =          '\n┠ <b>⚙️ᴍᴏᴅᴇ:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders} | '
-    LEECHERS =                                           '<b>☘️ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
+    SEEDERS =           '\n┠ <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders}'
+    LEECHERS =          '\n┠ <b>☘️ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
     ####--------SEEDING----------
     SEED_SIZE =      '\n┠ <b>🗃️sɪᴢᴇ: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>🧬sᴘᴇᴇᴅ: </b> {Speed} | '
-    UPLOADED =                                     '<b>🍁ᴜᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
-    ʀᴀᴛɪᴏ =          '\n┠ <b>⚓ʀᴀᴛɪᴏ: </b> {Ratio} | '
-    ᴛɪᴍᴇ =                                         '<b>❄ᴛɪᴍᴇ: </b> {Time}'
+    SEED_SPEED =     '\n┠ <b>🧬sᴘᴇᴇᴅ: </b> {Speed}'
+    UPLOADED =       '\n┠ <b>🍁ᴜᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
+    ʀᴀᴛɪᴏ =           '\n┠ <b>⚓ʀᴀᴛɪᴏ: </b> {Ratio}'
+    ᴛɪᴍᴇ =            '\n┠ <b>❄ᴛɪᴍᴇ: </b> {Time}'
     SEED_ENGINE =    '\n┠ <b>💎ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
@@ -200,25 +200,25 @@ class WZMLStyle:
     NON_ENGINE =     '\n┠ <b>🫧ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>⚙️ᴜsᴇʀ:</b> <code>{User}</code> | '
-    ID =                                                        '<b>🫧ɪᴅ:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
-    CANCEL =         '\n┖ {Cancel}\n\n'
+    USER =              '\n┠ <b>⚙️ᴜsᴇʀ:</b> <code>{User}</code>'
+    ID =                '\n┠<b>🫧ɪᴅ:</b> <code>{Id}</code>'
+    BTSEL =             '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
+    CANCEL =            '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><b>🦋ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
+    FOOTER = '┎<b><b>🦋ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
     TASKS =  '┠ <b>ᴛᴀsᴋs⚓:</b> {Tasks}\n'
     BOT_TASKS = '┠ <b>🌿ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '┠ <b>ᴄᴘᴜ💶:</b> {cpu}% | '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>♨ʀᴀᴍ:</b> {ram}% | '
-    uptime =                     '<b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
+    uptime =                     '<b>🦋ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
     DL = '\n┖ <b>🎖ᴅʟ:</b> {DL}/s | '
-    UL =                        '<b>ᴜʟ:</b> {UL}/s'
+    UL =                        '<b>🍁ᴜʟ:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '◀ʙᴀᴄᴋ'
-    REFRESH = '✴ᴘᴀɢᴇs✴\n{Page}'
+    REFRESH = 'ᴘᴀɢᴇs\n{Page}'
     NEXT = 'ɴᴇxᴛ▶'
     # ---------------------
 
@@ -245,14 +245,14 @@ class WZMLStyle:
     # async def mirror_status(_, message): ----> status.py
     NO_ACTIVE_DL = '''<i>😯ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</i>
     
-⌬ <b><i>📳ʙᴏᴛ sᴛᴀᴛs</code></b>
+┎ <b><i>📳ʙᴏᴛ sᴛᴀᴛs</code></b>
 ┠ <b>🖥ᴄᴘᴜ:</b> {cpu}% | <b>💿Ғʀᴇᴇ:</b> {free} [{free_p}%]
 ┖ <b>🚧ʀᴀᴍ:</b> {ram} | <b>🎮ᴜᴘᴛɪᴍᴇ:</b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py  
-    USER_SETTING = '''㊂ <b><u>ᴜsᴇʀ sᴇᴛᴛɪɴɢs :</u></b>
+    USER_SETTING = '''<b><u>⚛ᴜsᴇʀ sᴇᴛᴛɪɴɢs⚛ :</u></b>
         
 ┎<b> ✨ɴᴀᴍᴇ :</b> {NAME} ( <code>🆔{ID}</code> )
 ┠<b> 🦋ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
@@ -262,7 +262,7 @@ class WZMLStyle:
 ➲ <u><b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴀʀɢs:</b></u>
 • <b>-s</b> or <b>-sᴇᴛ</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
   
-    UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''🍂<b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
 ┎<b> ʏᴛ-ᴅʟᴘ ᴏᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
 ┠<b> ᴅᴀɪʟʏ ᴛᴀsᴋs :</b> <code>{DT}</code> ᴘᴇʀ ᴅᴀʏ
@@ -272,7 +272,7 @@ class WZMLStyle:
 ┠<b> sᴀᴠᴇ ᴍᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
 ┖<b> ᴜsᴇʀ ʙᴏᴛ ᴘᴍ :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''🍂<b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢ : {NAME}</u></b>
 
 ┎<b> ʀᴄʟᴏɴᴇ ᴄᴏɴғɪɢ :</b> <i>{RCLONE}</i>
 ┠<b> ᴍɪʀʀᴏʀ ᴘʀᴇғɪx𝟸 :</b> <code>{MPREFIX}</code>
@@ -283,7 +283,7 @@ class WZMLStyle:
 ┠<b> ᴛᴏᴛᴀʟ ᴜsᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
 ┖<b> ᴅᴀɪʟʏ ᴍɪʀʀᴏʀ :</b> <code>{DM}</code> ᴘᴇʀ ᴅᴀʏ'''
 
-    LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''🍂<b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢ {NAME}</u></b>
 
 ┎<b> ᴅᴀɪʟʏ ʟᴇᴇᴄʜ : </b><code>{DL}</code> ᴘᴇʀ ᴅᴀʏ
 ┠<b> ʟᴇᴇᴄʜ ᴛʏᴘᴇ :</b> <i>{LTYPE}</i>
