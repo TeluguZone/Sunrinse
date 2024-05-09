@@ -173,7 +173,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b></b>✔️ғɪʟᴇ ɴᴀᴍᴇ :<code>{Name}</code>'
+    STATUS_NAME =       '<b>༺━━━━ « <a href="https://t.me/SMD_Owner">𝐐𝐭𝐯𝐬 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>\n\n🌐 Name:</b><code>{Name}</code>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┎ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
