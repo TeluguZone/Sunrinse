@@ -165,7 +165,7 @@ class WZMLStyle:
     INDEX_LINK_F =    '🗂 ɪɴᴅᴇx ʟɪɴᴋ'
     INDEX_LINK_D =    '⚡ ɪɴᴅᴇx ʟɪɴᴋ'
     VIEW_LINK =       '🌐 ᴠɪᴇᴡ ʟɪɴᴋ'
-    CHECK_PM =        '📥 ᴠɪᴇᴡ ɪɴ ʙᴏᴛ ᴘᴍ'
+    CHECK_PM =        '👀 ᴠɪᴇᴡ ɪɴ ʙᴏᴛ ᴘᴍ'
     CHECK_LL =        '🖇 ᴠɪᴇᴡ ɪɴ ʟɪɴᴋs ʟᴏɢ'
     MEDIAINFO_LINK =  '📃 ᴍᴇᴅɪᴀɪɴғᴏ'
     SCREENSHOTS =     '🖼 sᴄʀᴇᴇɴsʜᴏᴛs'
@@ -185,14 +185,14 @@ class WZMLStyle:
     ENGINE =            '\n┠ <b>🪩ᴇɴɢɪɴᴇ:</b> {Engine}'
     STA_MODE =          '\n┠ <b>⚙️ᴍᴏᴅᴇ:</b> {Mode}'
     SEEDERS =           '\n┠ <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders} | '
-    LEECHERS =                                           '<b>🐌ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
+    LEECHERS =                                           '<b>☘️ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
     ####--------SEEDING----------
     SEED_SIZE =      '\n┠ <b>🗃️sɪᴢᴇ: </b>{Size}'
     SEED_SPEED =     '\n┠ <b>🧬sᴘᴇᴇᴅ: </b> {Speed} | '
-    UPLOADED =                                     '<b>🫅ᴜᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
+    UPLOADED =                                     '<b>🍁ᴜᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
     ʀᴀᴛɪᴏ =          '\n┠ <b>⚓ʀᴀᴛɪᴏ: </b> {Ratio} | '
-    ᴛɪᴍᴇ =                                         '<b>Time: </b> {Time}'
+    ᴛɪᴍᴇ =                                         '<b>❄ᴛɪᴍᴇ: </b> {Time}'
     SEED_ENGINE =    '\n┠ <b>💎ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
@@ -201,7 +201,7 @@ class WZMLStyle:
 
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n┠ <b>⚙️ᴜsᴇʀ:</b> <code>{User}</code> | '
-    ID =                                                        '<b>📚ɪᴅ:</b> <code>{Id}</code>'
+    ID =                                                        '<b>🫧ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
