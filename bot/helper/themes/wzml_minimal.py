@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "<b><u>📝ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>🧬sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b>✔️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n'
+    NAME =                  '<b>✔️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n\n'
     SIZE =                  '┠ <b>📄sɪᴢᴇ: </b>{Size}\n'
     ELAPSE =                '┠ <b>⏳ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
     MODE =                  '┠ <b>🧿ᴍᴏᴅᴇ: </b>{Mode}\n'
