@@ -2,9 +2,9 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Author'
+    ST_BN1_NAME = 'ᴀᴜᴛʜᴏʀ'
     ST_BN1_URL = 'https://SMD_Owner'
-    ST_BN2_NAME = 'Updates'
+    ST_BN2_NAME = 'ᴜᴘᴅᴀᴛᴇs'
     ST_BN2_URL = 'https://t.me/SMD_BotZ'
     ST_MSG = '''<i>ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i>
 <b>ᴛʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ a ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
@@ -28,7 +28,7 @@ class WZMLStyle:
     LOGIN_USED = '<b>ʙᴏᴛ ʟᴏɢɪɴ ᴜsᴀɢᴇ :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
-    LOG_DISPLAY_BT = '📑 ʟᴏɢ ᴅɪsᴘʟᴀ'
+    LOG_DISPLAY_BT = '📑 ʟᴏɢ ᴅɪsᴘʟᴀʏ'
     WEB_PASTE_BT = '📨 ᴡᴇʙ ᴘᴀsᴛᴇ (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>📝ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>🧬sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b>🎞️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n\n'
+    NAME =                  '<b>🎞️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n'
     SIZE =                  '┠ <b>📄sɪᴢᴇ: </b>{Size}\n'
     ELAPSE =                '┠ <b>⏳ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
     MODE =                  '┠ <b>🧿ᴍᴏᴅᴇ: </b>{Mode}\n'
@@ -173,7 +173,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b></b>🎬ɴᴀᴍᴇ :<code> {Name}</code>'
+    STATUS_NAME =       '<b></b>🎬ɴᴀᴍᴇ :<code>{Name}</code>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n\n┃ {Bar}'
