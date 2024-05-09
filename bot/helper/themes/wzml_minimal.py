@@ -206,13 +206,13 @@ class WZMLStyle:
     CANCEL =            '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '┎<b><b>🦋ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
+    FOOTER = '┎<b><b>♠️ʙᴏᴛ sᴛᴀᴛs</b></b>\n'
     TASKS =  '┠ <b>ᴛᴀsᴋs⚓:</b> {Tasks}\n'
     BOT_TASKS = '┠ <b>🌿ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '┠ <b>⚙️ᴄᴘᴜ:</b> {cpu}% '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>♨ʀᴀᴍ:</b> {ram}% | '
-    uptime =                     '\n┠ <b>🦋ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
+    uptime =                     '\n┠ <b>🕸️ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
     DL = '\n┠ <b>🎖ᴅʟ:</b> {DL}/s | '
     UL =                        '\n┖<b>🍁ᴜʟ:</b> {UL}/s'
 
