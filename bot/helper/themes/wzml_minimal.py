@@ -124,7 +124,7 @@ class WZMLStyle:
     # async def onDownloadStart(self): --> tasks_listener.py
     LINKS_START = """<b><i>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ</i></b>
 ┠ <b>ᴍᴏᴅᴇ:</b> {Mode}
-┖ <b>ʙʏ:</b> {Tag}\n\n"""
+┖ <b>ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ:</b> {Tag}\n\n"""
     LINKS_SOURCE = """<b>sᴏᴜʀᴄᴇ:</b>
 ┖ <b>ᴀᴅᴅᴇᴅ ᴏɴ:</b> {On}
 ------------------------------------------
@@ -139,12 +139,12 @@ class WZMLStyle:
     NAME =                  '<b>✔️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n\n'
     SIZE =                  '┠ <b>📄sɪᴢᴇ: </b>{Size}\n'
     ELAPSE =                '┠ <b>⏳ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
-    MODE =                  '┠ <b>🧿ᴍᴏᴅᴇ: </b>{Mode}\n'
+    MODE =                  '┠ <b>🌐ᴍᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>ᴄᴏʀʀᴜᴘᴛᴇᴅ ғɪʟᴇs: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '┠ <b>📁ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠ <b>🗂ᴄᴏʀʀᴜᴘᴛᴇᴅ ғɪʟᴇs: </b>{Corrupt}\n'
+    L_CC =                  '┖ <b>❄ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ: </b>{Tag}\n\n'
     PM_BOT_MSG =            '<b><u>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</b></b>'
     L_BOT_MSG =             '<b><u>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</b></b>'
     L_LL_MSG =              '<b><u>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</b></b>\n'
@@ -155,7 +155,7 @@ class WZMLStyle:
     TOTAL_FILES =           '┠ <b>ғɪʟᴇs: </b>{Files}\n'
     RCPATH =                '┠ <b>ᴘᴀᴛʜ: </b><code>{RCpath}</code>\n'
     M_CC =                  '┖ <b>ʙʏ: </b>{Tag}\n\n'
-    M_BOT_MSG =             '➲ <b><i>ʟɪɴᴋ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
+    M_BOT_MSG =             '🕸️ <b><i>ʟɪɴᴋ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ ᴄʟᴏᴜᴅ ʟɪɴᴋ'
     SAVE_MSG =        '📨 sᴀᴠᴇ ᴍᴇssᴀɢᴇ'
@@ -179,7 +179,7 @@ class WZMLStyle:
     BAR =               '\n┎ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
     PROCESSED =         '\n┠ <b>🛡️ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
     STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
-    ETA =               '\n┠ <b>🧿ᴇᴛᴀ:</b> {Eta}'
+    ETA =               '\n┠ <b>📍ᴇᴛᴀ:</b> {Eta}'
     SPEED =             '\n┠ <b>⏳sᴘᴇᴇᴅ:</b> {Speed}'
     ELAPSED =           '\n┠ <b>🕓ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
     ENGINE =            '\n┠ <b>🪩ᴇɴɢɪɴᴇ:</b> {Engine}'
