@@ -2,9 +2,9 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'ᴀᴜᴛʜᴏʀ'
+    ST_BN1_NAME = '🍂ᴀᴜᴛʜᴏʀ'
     ST_BN1_URL = 'https://SMD_Owner'
-    ST_BN2_NAME = 'ᴜᴘᴅᴀᴛᴇs'
+    ST_BN2_NAME = '🌀ᴜᴘᴅᴀᴛᴇs'
     ST_BN2_URL = 'https://t.me/SMD_BotZ'
     ST_MSG = '''<i>ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i>
 <b>ᴛʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ a ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>📝ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>🧬sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b>🎞️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n'
+    NAME =                  '<b>✔️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n'
     SIZE =                  '┠ <b>📄sɪᴢᴇ: </b>{Size}\n'
     ELAPSE =                '┠ <b>⏳ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
     MODE =                  '┠ <b>🧿ᴍᴏᴅᴇ: </b>{Mode}\n'
@@ -144,10 +144,10 @@ class WZMLStyle:
     # ----- LEECH -------
     L_TOTAL_FILES =         '┠ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
     L_CORRUPTED_FILES =     '┠ <b>ᴄᴏʀʀᴜᴘᴛᴇᴅ ғɪʟᴇs: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>ʙʏ: </b>{Tag}\n\n'
-    PM_BOT_MSG =            '=-->> <b><i>‼️ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</i></b>'
-    L_BOT_MSG =             '=-->> <b><i>‼️ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
-    L_LL_MSG =              '=-->> <b><i>‼️ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</i></b>\n'
+    L_CC =                  '┖ <b>ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ: </b>{Tag}\n\n'
+    PM_BOT_MSG =            '<b><i>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</b></b>'
+    L_BOT_MSG =             '<b><i>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</b></b>'
+    L_LL_MSG =              '<b><i>📂ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</b></b>\n'
     
     # ----- MIRROR -------
     M_TYPE =                '┠ <b>ᴛʏᴘᴇ: </b>{Mimetype}\n'
