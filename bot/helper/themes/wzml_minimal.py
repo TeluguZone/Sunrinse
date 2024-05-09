@@ -176,7 +176,7 @@ class WZMLStyle:
     STATUS_NAME =       '<b></b>✔️ғɪʟᴇ ɴᴀᴍᴇ :<code>{Name}</code>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n\n┎ {Bar}'
+    BAR =               '\n┎ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
     PROCESSED =         '\n┠ <b>🛡️ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
     STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
     ETA =               '\n┠ <b>🧿ᴇᴛᴀ:</b> {Eta}'
