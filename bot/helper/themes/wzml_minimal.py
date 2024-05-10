@@ -108,7 +108,7 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''<b><b>🍁ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...!</b></b>
+    RESTART_SUCCESS = '''<b><b>┎ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...!</b></b>
 ┠ <b>ᴅᴀᴛᴇ:</b> {date}
 ┠ <b>ᴛɪᴍᴇ:</b> {time}
 ┠ <b>ᴛɪᴍᴇᴢᴏɴᴇ:</b> {timz}
@@ -136,10 +136,10 @@ class WZMLStyle:
     L_LOG_START =           "<b><u>📝ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>🧬sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b>✔️ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n\n'
+    NAME =                  '<b>✔️ғɪʟᴇ ɴᴀᴍᴇ </b>: <code>{Name}</code>\n\n'
     SIZE =                  '┠ <b>📄sɪᴢᴇ: </b>{Size}\n'
     ELAPSE =                '┠ <b>⏳ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
-    MODE =                  '┠ <b>🧿ᴍᴏᴅᴇ: </b>{Mode}\n'
+    MODE =                  '┠ <b>🛞ᴍᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
     L_TOTAL_FILES =         '┠ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
@@ -155,7 +155,7 @@ class WZMLStyle:
     TOTAL_FILES =           '┠ <b>ғɪʟᴇs: </b>{Files}\n'
     RCPATH =                '┠ <b>ᴘᴀᴛʜ: </b><code>{RCpath}</code>\n'
     M_CC =                  '┖ <b>ʙʏ: </b>{Tag}\n\n'
-    M_BOT_MSG =             '➲ <b><i>ʟɪɴᴋ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
+    M_BOT_MSG =             '<b><i>ʟɪɴᴋ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ ᴄʟᴏᴜᴅ ʟɪɴᴋ'
     SAVE_MSG =        '📨 sᴀᴠᴇ ᴍᴇssᴀɢᴇ'
@@ -173,17 +173,17 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b>✔️ғɪʟᴇ ɴᴀᴍᴇ :<code>{Name}</code>\n\n┎━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
+    STATUS_NAME =       '<b>✔️ғɪʟᴇ ɴᴀᴍᴇ</b> :<code>{Name}</code>\n\n┎━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┠ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
-    PROCESSED =         '\n┠ <b>🛡ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
+    PROCESSED =         '\n┠ <b>⚡ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
     STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
-    ETA =               '\n┠ <b>🧿ᴇᴛᴀ:</b> {Eta}'
+    ETA =               '\n┠ <b>💿ᴇᴛᴀ:</b> {Eta}'
     SPEED =             '\n┠ <b>⏳sᴘᴇᴇᴅ:</b> {Speed}'
     ELAPSED =           '\n┠ <b>🕓ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
     ENGINE =            '\n┠ <b>🪩ᴇɴɢɪɴᴇ:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>⚙️ᴍᴏᴅᴇ:</b> {Mode}'
+    STA_MODE =          '\n┠ <b>🌐ᴍᴏᴅᴇ:</b> {Mode}'
     SEEDERS =           '\n┠ <b>🌱sᴇᴇᴅᴇʀs:</b> {Seeders}'
     LEECHERS =          '\n┠ <b>☘️ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
@@ -200,8 +200,8 @@ class WZMLStyle:
     NON_ENGINE =     '\n┠ <b>🫧ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>⚙️ᴜsᴇʀ:</b> <code>{User}</code>'
-    ID =                '\n┠<b>🫧ɪᴅ:</b> <code>{Id}</code>'
+    USER =              '\n┠ <b>🪪ᴜsᴇʀ:</b> <code>{User}</code>'
+    ID =                '\n┠ <b>🪬ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =             '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =            '\n┠ {Cancel}\n<b>┖━━━━ « <a href="https://t.me/SMD_Botz">𝐒𝐌𝐃 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>\n\n'
 
@@ -255,11 +255,11 @@ class WZMLStyle:
     # USER Setting --> user_setting.py  
     USER_SETTING = '''<b><u>⚛ᴜsᴇʀ sᴇᴛᴛɪɴɢs⚛ :</u></b>
         
-┎<b> ✨ɴᴀᴍᴇ :</b> {NAME}
-┠<b> 👤ɪᴅ :</b> {ID}
-┠<b> 🦋ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
-┠<b> ❤️‍🔥ᴅᴀᴛᴀ ᴄᴇɴᴛᴇʀ :</b> {DC}
-┖<b> 🎭ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}
+┎<b> ɴᴀᴍᴇ :</b> {NAME}
+┠<b> ɪᴅ :</b> {ID}
+┠<b> ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
+┠<b> ᴅᴀᴛᴀ ᴄᴇɴᴛᴇʀ :</b> {DC}
+┖<b> ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}
 
 <u><b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴀʀɢs:</b></u>
 <b>-s</b> or <b>-sᴇᴛ</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
@@ -274,7 +274,7 @@ class WZMLStyle:
 ┠<b> sᴀᴠᴇ ᴍᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
 ┖<b> ᴜsᴇʀ ʙᴏᴛ ᴘᴍ :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''🍂<b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢ : {NAME}</u></b>
+    MIRROR = '''🍂<b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
 ┎<b> ʀᴄʟᴏɴᴇ ᴄᴏɴғɪɢ :</b> <i>{RCLONE}</i>
 ┠<b> ᴍɪʀʀᴏʀ ᴘʀᴇғɪx𝟸 :</b> <code>{MPREFIX}</code>
@@ -285,7 +285,7 @@ class WZMLStyle:
 ┠<b> ᴛᴏᴛᴀʟ ᴜsᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
 ┖<b> ᴅᴀɪʟʏ ᴍɪʀʀᴏʀ :</b> <code>{DM}</code> ᴘᴇʀ ᴅᴀʏ'''
 
-    LEECH = '''🍂<b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢ {NAME}</u></b>
+    LEECH = '''🍂<b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs {NAME}</u></b>
 
 ┎<b> ᴅᴀɪʟʏ ʟᴇᴇᴄʜ : </b><code>{DL}</code> ᴘᴇʀ ᴅᴀʏ
 ┠<b> ʟᴇᴇᴄʜ ᴛʏᴘᴇ :</b> <i>{LTYPE}</i>
