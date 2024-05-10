@@ -37,7 +37,7 @@ class WZMLStyle:
     MICS_BT = 'ᴍɪᴄs'
     O_S_BT = 'ᴏᴡɴᴇʀ & sᴜᴅᴏs'
     CLOSE_BT = 'ᴄʟᴏs'
-    HELP_HEADER = "🍂 <b><i>ʜᴇʟᴘ ɢᴜɪᴅᴇ ᴍᴇɴᴜ!</i></b>\n\n<b>NOTE: <i>ᴄʟɪᴄᴋ ᴏɴ ᴀɴʏ ᴄᴍᴅ ᴛᴏ sᴇᴇ ᴍᴏʀᴇ ᴍɪɴᴏʀ detalis.</i></b>"
+    HELP_HEADER = "<b><i>ʜᴇʟᴘ ɢᴜɪᴅᴇ ᴍᴇɴᴜ!</i></b>\n\n<b>NOTE: <i>ᴄʟɪᴄᴋ ᴏɴ ᴀɴʏ ᴄᴍᴅ ᴛᴏ sᴇᴇ ᴍᴏʀᴇ ᴍɪɴᴏʀ detalis.</i></b>"
 
     # async def stats(client, message):
     BOT_STATS = '''<b><i>ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
@@ -253,7 +253,7 @@ class WZMLStyle:
     # ---------------------
 
     # USER Setting --> user_setting.py  
-    USER_SETTING = '''<b><u>⚛ᴜsᴇʀ sᴇᴛᴛɪɴɢs⚛ :</u></b>
+    USER_SETTING = '''<b><u>ᴜsᴇʀ sᴇᴛᴛɪɴɢs :</u></b>
         
 ┎<b> ɴᴀᴍᴇ :</b> {NAME}
 ┠<b> ɪᴅ :</b> {ID}
@@ -264,7 +264,7 @@ class WZMLStyle:
 <u><b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴀʀɢs:</b></u>
 <b>-s</b> or <b>-sᴇᴛ</b>: sᴇᴛ ᴅɪʀᴇᴄᴛʟʏ ᴠɪᴀ ᴀʀɢ'''
   
-    UNIVERSAL = '''🍂<b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
+    UNIVERSAL = '''<b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
 ┎<b> ʏᴛ-ᴅʟᴘ ᴏᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
 ┠<b> ᴅᴀɪʟʏ ᴛᴀsᴋs :</b> <code>{DT}</code> ᴘᴇʀ ᴅᴀʏ
@@ -274,7 +274,7 @@ class WZMLStyle:
 ┠<b> sᴀᴠᴇ ᴍᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
 ┖<b> ᴜsᴇʀ ʙᴏᴛ ᴘᴍ :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''🍂<b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
+    MIRROR = '''<b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
 ┎<b> ʀᴄʟᴏɴᴇ ᴄᴏɴғɪɢ :</b> <i>{RCLONE}</i>
 ┠<b> ᴍɪʀʀᴏʀ ᴘʀᴇғɪx𝟸 :</b> <code>{MPREFIX}</code>
@@ -285,7 +285,7 @@ class WZMLStyle:
 ┠<b> ᴛᴏᴛᴀʟ ᴜsᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
 ┖<b> ᴅᴀɪʟʏ ᴍɪʀʀᴏʀ :</b> <code>{DM}</code> ᴘᴇʀ ᴅᴀʏ'''
 
-    LEECH = '''🍂<b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs {NAME}</u></b>
+    LEECH = '''<b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs {NAME}</u></b>
 
 ┎<b> ᴅᴀɪʟʏ ʟᴇᴇᴄʜ : </b><code>{DL}</code> ᴘᴇʀ ᴅᴀʏ
 ┠<b> ʟᴇᴇᴄʜ ᴛʏᴘᴇ :</b> <i>{LTYPE}</i>
