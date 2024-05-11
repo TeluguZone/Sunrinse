@@ -274,7 +274,7 @@ class MirrorLeechListener:
                 self.newDir = ""
                 up_path = dl_path
 
-        if metadata := self.user_dict.get('lmata') or config_dict['METADATA']:
+        if metadata := self.user_dict.get('lmeta') or config_dict['METADATA']:
             meta_path = up_path or dl_path
             self.newDir = f'{self.dir}10000'
             await makedirs(self.newDir, exist_ok=True)
