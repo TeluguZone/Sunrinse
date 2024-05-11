@@ -79,10 +79,10 @@ class WZMLStyle:
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
     '''
     REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
-┠ <b>Bot Updated :</b> {last_commit}
+┠ <b>Bot Updated :</b> BLASTEE
 ┠ <b>Current Version :</b> {bot_version}
 ┠ <b>Latest Version :</b> {lat_version}
-┖ <b>Last ChangeLog :</b> {commit_details}
+┖ <b>Last ChangeLog :</b> BLASTER
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
     '''
