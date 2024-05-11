@@ -49,7 +49,7 @@ fname_dict = {'rcc': 'RClone',
              'lprefix': 'Prefix',
              'lsuffix': 'Suffix',
              'lremname': 'Remname',
-             'lmeta': 'MetaData',
+             'lmeta': 'Metadata',
              'mprefix': 'Prefix',
              'msuffix': 'Suffix',
              'mremname': 'Remname',
@@ -294,7 +294,7 @@ async def user_settings(client, message):
     /cmd -s lsuffix
 ➲ <b>Leech Filename Remname :</b>
     /cmd -s lremname
-➲ <b>Leech Filename Remname :</b>
+➲ <b>Leech Metadata Text :</b>
     /cmd -s lmeta
 ➲ <b>Leech Filename Caption :</b>
     /cmd -s lcaption
