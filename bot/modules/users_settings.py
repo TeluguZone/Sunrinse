@@ -174,7 +174,7 @@ async def get_user_settings(from_user, key=None, edit_type=None, edit_mode=None)
         ldump = 'Not Exists' if (val:=user_dict.get('ldump', '')) == '' else len(val)
 
         lmeta = 'Not Exists' if (val:=user_dict.get('lmeta', config_dict.get('METADATA', ''))) == '' else val
-        buttons.ibutton(f"{'✅️' if lmeta != 'Not Exists' else ''} Metadata", f"userset {user_id} lmeta")
+        buttons.ibutton(f"{'✅️' if lmeta != 'Not Exists' else ''} Metadata Text", f"userset {user_id} lmeta")
                 
         text = BotTheme('LEECH', NAME=name, DL=f"{dailyll} / {dailytlle}",
                 LTYPE=ltype, THUMB=thumbmsg, SPLIT_SIZE=split_size,
