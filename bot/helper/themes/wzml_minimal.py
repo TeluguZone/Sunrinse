@@ -286,6 +286,7 @@ class WZMLStyle:
 ┠<b>Ⓟ Prefix :</b> <code>{LPREFIX}</code>
 ┠<b>Ⓢ Suffix :</b> <code>{LSUFFIX}</code>
 ┠<b>📦 Dump :</b> <code>{LDUMP}</code>
+┠<b>📝Metadata Text :</b> <code>{LMETA}</code>
 ┗<b>🌈 Remname :</b> <code>{LREMNAME}</code>
 
 <a href="https://t.me/Blaster_Originals"><b>♥️ 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @𝗕𝗟𝗔𝗦𝗧𝗘𝗥</b></a>'''
