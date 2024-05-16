@@ -1,3 +1,4 @@
+#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 #!/usr/bin/env python3
 from random import choice
 from time import time
