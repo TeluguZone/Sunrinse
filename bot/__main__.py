@@ -1,3 +1,4 @@
+#tg
 from time import time, monotonic
 from datetime import datetime
 from sys import executable
