@@ -1,3 +1,4 @@
+#Tg
 #!/usr/bin/env python3
 from random import choice
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
@@ -535,7 +536,7 @@ async def load_config():
 
 <b>Story Line:</b> {synopsis}
 
-<a href='{url}'>Read More ...</a>'''
+<a href='{url}'>Read More ..</a>'''
     
     TIMEZONE = environ.get('TIMEZONE', '')
     if len(TIMEZONE) == 0:
