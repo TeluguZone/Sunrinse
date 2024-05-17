@@ -45,8 +45,8 @@ PAGE_NO      = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING   = "Upload"
-    STATUS_DOWNLOADING = "Download"
+    STATUS_UPLOADING   = "Uploading"
+    STATUS_DOWNLOADING = "Downloading"
     STATUS_CLONING     = "Clone"
     STATUS_QUEUEDL     = "QueueDL"
     STATUS_QUEUEUP     = "QueueUp"
@@ -54,7 +54,7 @@ class MirrorStatus:
     STATUS_ARCHIVING   = "Archive"
     STATUS_EXTRACTING  = "Extract"
     STATUS_SPLITTING   = "Split"
-    STATUS_METADATA    = "MetaEdit"
+    STATUS_METADATA    = "Adding Metadata"
     STATUS_CHECKING    = "CheckUp"
     STATUS_SEEDING     = "Seed"
 
